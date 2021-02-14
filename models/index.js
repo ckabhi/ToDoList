@@ -5,7 +5,6 @@ var sequelize = new Sequelize('todolist', 'root', '', {
     host: 'localhost',
     dialect: 'mysql',
     operatorsAliases: false
-    
 });
 var db = {};
 
