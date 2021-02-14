@@ -1,7 +1,7 @@
 var fs = require("fs");
 var path = require("path");
 var Sequelize = require("sequelize");
-var sequelize = new Sequelize('todolist', 'root', '', {
+var sequelize = new Sequelize('abhishek', 'abhishek', 'password', {
     host: 'localhost',
     dialect: 'mysql',
     operatorsAliases: false
